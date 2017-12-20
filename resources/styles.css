@@ -46,8 +46,45 @@ a{
     border: 1px solid black;
     flex-direction: column;
 }
-.large div{
-    border: 1px solid black;
+.imageone{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    height: 300px;
+    margin-top: 15px;
+}
+.imagetwo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.imagethree{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.split-col{
+    display: flex;
+    flex-wrap: nowrap;
+}
+#colA{
+    flex-direction: column;
+}
+#colB{
+    flex-direction: column;
+}
+.large .imageone{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+.large .imagetwo{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+    height: 300px;
+    width: 300px;
+}
+.large .imagethree{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+    height: 300px;
+    width: 300px;
 }
 .medium{
     display: flex;
@@ -67,7 +104,17 @@ a{
 .small div{
     border: 1px solid black;
 }
-
+span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: black;
+}
 
 
 
