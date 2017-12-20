@@ -37,13 +37,13 @@ a{
 .column{
     display: flex; 
     padding-top: 80px;
-    flex-direction: row;
-    border: 1px solid black;  
+    flex-direction: row; 
 }
 .large{
     display: flex;
     width: 630px;
     flex-direction: column;
+    padding-right: 20px;
 }
 .imageone{
     display: flex;
@@ -91,11 +91,10 @@ a{
 .medium{
     display: flex;
     width: 300px;
-    border: 1px solid black;
-    flex-direction: column;    
+    flex-direction: column;
+    padding-right: 20px;   
 }
 .medium div{
-    border: 1px solid black;
     display: flex;
     flex-direction: column;
 }
@@ -107,13 +106,26 @@ a{
 .small{
     display: flex;
     width: 240px;
-    border: 1px solid black;
     flex-direction: column; 
 }
-.small div{
-    border: 1px solid black;
+.small h3{
+    text-align: center;
 }
-span{
+.news-bites span{
+    display: block;
+    font-size: 12px;
+    background-color: whitesmoke;
+    color: dimgray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 11px 20px;
+    border-bottom: 1px solid black;
+}
+.small .imagefive{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-news-bite.png");
+    height: 250px;
+    width: 250px;
+}
+.imspan{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 30px;
