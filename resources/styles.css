@@ -34,6 +34,39 @@ nav{
 a{
     color: black;
 }
+.column{
+    display: flex; 
+    padding-top: 80px;
+    flex-direction: row;
+    border: 1px solid black;  
+}
+.large{
+    display: flex;
+    width: 630px;
+    border: 1px solid black;
+    flex-direction: column;
+}
+.large div{
+    border: 1px solid black;
+}
+.medium{
+    display: flex;
+    width: 300px;
+    border: 1px solid black;
+    flex-direction: column;    
+}
+.medium div{
+    border: 1px solid black;
+}
+.small{
+    display: flex;
+    width: 240px;
+    border: 1px solid black;
+    flex-direction: column; 
+}
+.small div{
+    border: 1px solid black;
+}
 
 
 
